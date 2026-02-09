@@ -1,0 +1,10 @@
+rm -fv ./toff.exe 
+rm -fv ./toff_config.o  
+rm -fv ./toff_compile.txt
+rm -fv ./toff_link.txt
+#
+#### Compiling the source code #### 
+g++ -c -o ./toff.o ./CSource/toff_config.cpp 2>> ./toff_compile.txt
+#
+#### Linking ####
+g++ -o ./toff.exe -lm  ./toff.o 2>> ./toff_link.txt
