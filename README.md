@@ -24,12 +24,12 @@ Below are the versions of my libraries. If you would like to create a new enviro
 | scipy                    | 1.5.2 |
 | tqdm                     | 4.67.1 |
 
-Note that, because of the file size limits of Github, AQUA water equation of state (EOS) files are only available on Zenodo.
+Note that, because of the file size limits of Github, AQUA water equation of state (EOS) files are only available on Zenodo [[Zenodo link](https://zenodo.org/records/18568108)].
 
 ## Tutorials
 This repository includes two Jupyter Notebook tutorials that go through some of the basic functionalities of `CORGI`. `tutorial_forward_model.ipynb` introduces the forward modeling component of `CORGI`. `tutorial_MR_curves.ipynb` introduces how to generate constant-composition mass-radius (M-R) curves with `CORGI`. The figure below shows M-R curves generated with `CORGI`, overplotted with masses and radii of confirmed exoplanets from the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/index.html).
 
-<center><img src="Plots/MR_curves_with_planets.png" alt="drawing" width="500"/></center>
+<center><img src="Plots/MR_curves_with_planets.png" alt="drawing" width="800"/></center>
 
 ## Citing `CORGI`
 If you use `CORGI` in your work, please cite:
