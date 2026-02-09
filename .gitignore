@@ -1,5 +1,8 @@
 # OS generated files
 .DS_Store
+Data/.DS_Store
+MR_curves/Zeng2016EOS_2layer_rocky/.DS_Store
+Results/.DS_Store
 
 # Python bytecode
 __pycache__/
